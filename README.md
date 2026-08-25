@@ -1,4 +1,4 @@
-# Advanced JavaScript Problem Solver - 2,825+ Interactive Challenges & AI Explanations
+# Advanced JavaScript Problem Solver - 2825+ Interactive Challenges & AI Explanations
 
 <!-- MIT License -->
 
