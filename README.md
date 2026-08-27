@@ -1064,7 +1064,7 @@ Contributions are welcome.
 Fork the repository and clone your fork.
 
 ```bash
-git clone https://github.com/<your-username>/advanced-js-problem-solver.git
+git clone https://github.com/md-abu-kayser/advanced-js-problem-solver.git
 ```
 
 ## Create a Branch
