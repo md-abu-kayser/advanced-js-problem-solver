@@ -1,7 +1,7 @@
 {
   "name": "advanced-javascript-problem-solver",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@google/genai": "^1.19.0",
-    "@google/generative-ai": "^0.24.1",
+    "@google/genai": "^2.19.0",
     "@vitejs/plugin-react": "^5.0.2",
     "mathjs": "^14.7.0",
     "react": "^19.1.1",
