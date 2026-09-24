@@ -5,22 +5,22 @@
 </p>
 
 <p align="center">
-  A structured, interactive learning platform for developers who want to
-  strengthen JavaScript fundamentals, modern ECMAScript concepts,
-  problem-solving skills, and practical coding ability.
+  A structured, interactive learning platform for developers who want to strengthen
+  JavaScript fundamentals, modern ECMAScript concepts, problem-solving skills,
+  and practical coding ability.
 </p>
 
 <p align="center">
   <a href="https://github.com/md-abu-kayser/advanced-js-problem-solver">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
   </a>
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License" />
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
   </a>
-  <img src="https://img.shields.io/badge/Challenges-2825%2B-0A66C2?style=for-the-badge" alt="2825+ Challenges" />
-  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19.1.1" />
-  <img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-6.2.0-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6.2.0" />
+  <img src="https://img.shields.io/badge/Challenges-2825%2B-0A66C2?style=for-the-badge" alt="2,825+ Challenges">
+  <img src="https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19.1.1">
+  <img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vite-6.2.0-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6.2.0">
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 **Advanced JavaScript Problem Solver** is a React + TypeScript learning platform built around a large, structured collection of interactive JavaScript challenges.
 
-Instead of presenting isolated coding questions, the application organizes problems by topic and pairs them with:
+Instead of presenting isolated coding questions, the application combines each challenge with:
 
 - Clear problem statements
 - Guided explanations
@@ -48,15 +48,15 @@ Instead of presenting isolated coding questions, the application organizes probl
 - AI-assisted hints and explanations
 - Utility tools for learning and experimentation
 
-The repository also demonstrates how a modern frontend application can combine **structured educational content with generative AI capabilities**.
+The project demonstrates how a modern frontend application can combine **structured educational content with generative AI capabilities**.
 
 ---
 
-# Why This Project Exists
+## Why This Project Exists
 
-Learning JavaScript effectively requires more than watching tutorials.
+Learning JavaScript effectively requires more than watching tutorials or reading documentation.
 
-Developers need to repeatedly:
+Developers need to repeatedly move through a cycle of understanding, implementation, debugging, reasoning, and experimentation.
 
 ```text
 Understand
@@ -74,58 +74,64 @@ Compare Solutions
 Practice Again
 ```
 
-This project is designed around that loop.
+This project is designed around that learning loop.
 
-Instead of treating coding problems as isolated exercises, the platform aims to provide a complete learning experience where developers can move from **problem discovery → implementation → explanation → guided assistance** within one application.
+Instead of treating coding problems as isolated exercises, the platform provides a workflow where developers can move from:
+
+```text
+Problem Discovery
+        ↓
+Implementation
+        ↓
+Explanation
+        ↓
+Reference Solution
+        ↓
+Guided Assistance
+        ↓
+Deeper Understanding
+```
 
 ---
 
-# Core Objectives
+## Core Objectives
 
-The project focuses on five primary objectives:
+The project focuses on five primary objectives.
 
 ### 1. Practice
 
-Provide a large and organized JavaScript problem library.
+Provide a large and organized JavaScript problem library for repeated practice.
 
 ### 2. Understanding
 
-Give developers explanations instead of only final answers.
+Provide explanations and reasoning instead of only presenting final answers.
 
 ### 3. Problem Solving
 
-Encourage reasoning and implementation rather than passive reading.
+Encourage developers to reason about requirements, edge cases, implementation details, and trade-offs.
 
 ### 4. Assistance
 
-Use AI to help learners explore difficult concepts, request hints, and ask follow-up questions.
+Use AI-assisted functionality to help learners explore difficult concepts, request hints, and ask follow-up questions.
 
 ### 5. Extensibility
 
-Make the problem library easy to expand without redesigning the application.
+Maintain a data-driven architecture that allows the problem library to grow without requiring major UI changes.
 
 ---
 
-# Platform Highlights
+## Platform Highlights
 
 ```text
 2,825+
 Interactive Challenges
-
-          +
-
+        +
 Structured Explanations
-
-          +
-
+        +
 Reference Solvers
-
-          +
-
+        +
 AI-Assisted Learning
-
-          +
-
+        +
 Data-Driven Architecture
 ```
 
@@ -149,7 +155,7 @@ Example categories include:
 - Mini projects
 - Utility-oriented challenges
 
-The category-driven structure makes the platform easier to navigate and easier to expand.
+This category-driven structure makes the platform easier to navigate, maintain, and expand.
 
 ---
 
@@ -157,21 +163,21 @@ The category-driven structure makes the platform easier to navigate and easier t
 
 Each problem is designed to provide more than a title and description.
 
-The platform can expose:
+A typical problem can expose:
 
 ```text
 Problem
-   │
-   ├── Description
-   │
-   ├── Explanation
-   │
-   ├── Reference Solution
-   │
-   └── AI Assistance
+  │
+  ├── Description
+  │
+  ├── Explanation
+  │
+  ├── Reference Solution
+  │
+  └── AI Assistance
 ```
 
-This creates a more complete learning workflow than simply publishing a list of coding questions.
+This creates a complete learning workflow rather than simply publishing a list of coding questions.
 
 ---
 
@@ -187,6 +193,7 @@ Typical use cases include:
 - Exploring alternative approaches
 - Requesting example code
 - Understanding why a solution works
+- Asking follow-up questions
 
 Conceptually:
 
@@ -220,7 +227,7 @@ topic/
 └── solvers.ts
 ```
 
-This allows new educational content to be added without rewriting the application interface.
+This separation allows new educational content to be added without rewriting the application interface.
 
 ---
 
@@ -234,7 +241,7 @@ These include:
 - Mathematical utilities
 - Supporting helper components
 
-The calculator/utility layer is intended to reduce context switching while solving problems.
+The goal is to reduce unnecessary context switching while solving problems.
 
 ---
 
@@ -250,7 +257,7 @@ Potential future use cases include:
 - Problem history
 - Personalized learning paths
 
-The current project should not be interpreted as a fully deployed authentication backend unless one is actually configured.
+The current project should not be interpreted as having a complete production authentication backend unless one is explicitly configured.
 
 ---
 
@@ -260,27 +267,28 @@ The current project should not be interpreted as a fully deployed authentication
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│                         USER                                │
+│                           USER                              │
 └─────────────────────────────┬───────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    REACT APPLICATION                        │
 │                                                             │
-│  Pages │ Components │ Hooks │ UI │ State                    │
+│        Pages │ Components │ Hooks │ UI │ State              │
 └─────────────────────────────┬───────────────────────────────┘
                               │
                  ┌────────────┴────────────┐
+                 │                         │
                  ▼                         ▼
-┌─────────────────────────┐    ┌──────────────────────────────┐
-│   Problem Knowledge     │    │      External Services       │
-│                         │    │                              │
-│ problems.ts             │    │ Google Generative AI         │
-│ explanations.ts         │    │                              │
-│ solvers.ts              │    │ Future Auth / APIs           │
-└────────────┬────────────┘    └──────────────┬───────────────┘
-             │                                │
-             └────────────────┬───────────────┘
+┌─────────────────────────┐   ┌──────────────────────────────┐
+│   Problem Knowledge     │   │      External Services       │
+│                         │   │                              │
+│ problems.ts             │   │ Google Generative AI         │
+│ explanations.ts         │   │                              │
+│ solvers.ts              │   │ Future Auth / APIs           │
+└────────────┬────────────┘   └──────────────┬───────────────┘
+             │                               │
+             └────────────────┬──────────────┘
                               ▼
                     ┌──────────────────────┐
                     │     UI Response      │
@@ -289,9 +297,9 @@ The current project should not be interpreted as a fully deployed authentication
 
 ---
 
-# Application Flow
+## Application Flow
 
-A typical learning session can be represented as:
+A typical learning session follows this workflow:
 
 ```text
 Open Application
@@ -327,15 +335,15 @@ Educational data lives separately from presentation components.
 
 ```text
 Content
-  ├── Problems
-  ├── Explanations
-  └── Solvers
+├── Problems
+├── Explanations
+└── Solvers
 
 Presentation
-  ├── Cards
-  ├── Pages
-  ├── Modals
-  └── Assistant UI
+├── Cards
+├── Pages
+├── Modals
+└── Assistant UI
 ```
 
 This makes the content layer reusable and easier to maintain.
@@ -344,7 +352,7 @@ This makes the content layer reusable and easier to maintain.
 
 ## Convention-Based Expansion
 
-Adding another problem category should follow the existing pattern instead of introducing a new architecture for every topic.
+Adding another problem category should follow the existing architecture instead of introducing a new structure for every topic.
 
 ```text
 src/problems/
@@ -355,7 +363,7 @@ src/problems/
 └── advanced/
 ```
 
-Each category can expose the same basic content contract.
+Each category can expose the same basic content structure.
 
 ---
 
@@ -372,17 +380,13 @@ Each category can expose the same basic content contract.
 | daisyUI      | UI component layer                   |
 | React Icons  | Icon system                          |
 
----
-
 ## AI
 
 | Technology           | Purpose                                                       |
 | -------------------- | ------------------------------------------------------------- |
 | Google Generative AI | AI-assisted explanations, hints, and code-oriented assistance |
 
-The repository currently references the Google GenAI ecosystem and its frontend integration.
-
----
+The repository currently references the Google Generative AI ecosystem and its frontend integration.
 
 ## Utilities
 
@@ -392,8 +396,6 @@ The repository currently references the Google GenAI ecosystem and its frontend 
 | Google Fonts | Typography                          |
 | Font Awesome | Icons                               |
 | Heroicons    | Interface icons                     |
-
----
 
 ## Developer Experience
 
@@ -424,7 +426,6 @@ advanced-js-problem-solver/
 │   │   └── ...
 │   │
 │   ├── problems/
-│   │   │
 │   │   ├── beginner-basics/
 │   │   │   ├── problems.ts
 │   │   │   ├── explanations.ts
@@ -452,13 +453,13 @@ advanced-js-problem-solver/
 └── README.md
 ```
 
-The existing repository follows this general component + problem-data + service organization.
+The repository follows a component + problem-data + service organization.
 
 ---
 
 # Problem Data Model
 
-The problem library follows a simple, extensible content model.
+The problem library follows a simple and extensible content model.
 
 ## `problems.ts`
 
@@ -510,17 +511,17 @@ export const solvers = {
 };
 ```
 
-The existing README explicitly defines these three files as the core problem-content structure.
+These three files form the core problem-content structure.
 
 ---
 
 # Adding New Problems
 
-One of the main architectural goals is making the problem bank easy to extend.
+One of the main architectural goals is keeping the problem bank easy to extend.
 
 ## Step 1 — Create a Topic
 
-Add a directory:
+Add a new directory:
 
 ```text
 src/problems/your-topic/
@@ -550,7 +551,7 @@ export const problems = [
 
 ---
 
-## Step 3 — Add Explanation
+## Step 3 — Add an Explanation
 
 Create:
 
@@ -570,7 +571,7 @@ export const explanations = {
 
 ---
 
-## Step 4 — Add Reference Solver
+## Step 4 — Add a Reference Solver
 
 Create:
 
@@ -594,7 +595,7 @@ export const solvers = {
 
 ## Step 5 — Register the Category
 
-Add the new category to the central problem aggregation layer.
+Add the new category to the central problem aggregation layer:
 
 ```text
 src/problems/index.ts
@@ -606,33 +607,33 @@ This keeps problem discovery centralized.
 
 # Content Authoring Guidelines
 
-When creating a new challenge, prefer:
+When creating a new challenge, prefer the following standards.
 
 ### Clear Problem Statements
 
-The reader should know exactly what needs to be implemented.
+The reader should understand exactly what needs to be implemented.
 
 ### Explicit Inputs
 
-Explain what the function receives.
+Explain what the function or program receives.
 
 ### Explicit Outputs
 
-Explain what should be returned.
+Explain what should be returned or produced.
 
 ### Edge Cases
 
-Mention meaningful edge cases where necessary.
+Mention meaningful edge cases when necessary.
 
 ### Reference Reasoning
 
-Explain why the solution works rather than only showing code.
+Explain why the solution works instead of only showing the final code.
 
 ### Practical Naming
 
 Use descriptive IDs and titles.
 
-Poor:
+Avoid:
 
 ```text
 problem1
@@ -640,7 +641,7 @@ test2
 newQuestion
 ```
 
-Better:
+Prefer:
 
 ```text
 array-two-sum
@@ -665,27 +666,29 @@ The project currently documents Node.js 18+ as the baseline.
 
 ---
 
-# Installation
+## Installation
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/md-abu-kayser/advanced-js-problem-solver.git
 ```
 
-Enter the project directory:
+### 2. Enter the Project Directory
 
 ```bash
 cd advanced-js-problem-solver
 ```
 
-Install dependencies:
+### 3. Install Dependencies
+
+Using npm:
 
 ```bash
 npm install
 ```
 
-Or:
+Or using Yarn:
 
 ```bash
 yarn install
@@ -712,9 +715,11 @@ The current project documents these values for its AI assistant configuration.
 
 ## Important Security Consideration
 
-Because variables prefixed with `VITE_` are intended for client-side applications, they should **not** be treated as secret server-side credentials.
+Environment variables prefixed with `VITE_` are exposed to the client-side application during the build process.
 
-For a production application, a safer architecture is:
+Therefore, they should **not** be treated as secure server-side credentials.
+
+For a production architecture, sensitive provider credentials should be kept behind a backend or server-side service.
 
 ```text
 React Client
@@ -726,9 +731,7 @@ Application Backend
 Generative AI Provider
 ```
 
-rather than exposing sensitive provider credentials directly in the browser.
-
-This is an important distinction between a development/demo architecture and a production credential-management architecture.
+This is safer than exposing sensitive provider credentials directly in the browser.
 
 ---
 
@@ -746,7 +749,7 @@ Then open:
 http://localhost:5173
 ```
 
-The existing project documents Vite's development server on port `5173`.
+The current setup documents Vite's development server on port `5173`.
 
 ---
 
@@ -764,20 +767,18 @@ Preview the production build locally:
 npm run preview
 ```
 
-The existing setup documents these commands as the production build workflow.
-
 ---
 
 # Development Scripts
 
-| Command           | Description                      |
-| ----------------- | -------------------------------- |
-| `npm run dev`     | Start Vite development server    |
-| `npm run build`   | Build application for production |
-| `npm run preview` | Preview production build         |
-| `npm run lint`    | Run linting                      |
-| `npm run format`  | Format source code               |
-| `npm run test`    | Run configured tests             |
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start Vite development server        |
+| `npm run build`   | Build the application for production |
+| `npm run preview` | Preview the production build         |
+| `npm run lint`    | Run linting                          |
+| `npm run format`  | Format source code                   |
+| `npm run test`    | Run configured tests                 |
 
 > Use `npm run` to inspect the exact scripts available in the current `package.json`.
 
@@ -785,11 +786,11 @@ The existing setup documents these commands as the production build workflow.
 
 # Code Quality
 
-The project uses common frontend development tooling to support consistency.
+The project uses common frontend development tooling to support consistency and maintainability.
 
 ## ESLint
 
-Use ESLint to identify code-quality and static-analysis issues.
+Use ESLint for static analysis and code-quality checks.
 
 ```bash
 npm run lint
@@ -797,13 +798,11 @@ npm run lint
 
 ## Prettier
 
-Use Prettier to maintain consistent formatting.
+Use Prettier to maintain consistent source-code formatting.
 
 ```bash
 npm run format
 ```
-
-The repository currently identifies ESLint and Prettier as part of its development tooling.
 
 ---
 
@@ -825,9 +824,9 @@ describe("array-001", () => {
 });
 ```
 
-However, the current repository documentation states that **formal unit tests are not shipped with the application yet**.
+However, the current project documentation states that **formal unit tests are not shipped with the application yet**.
 
-This README therefore treats testing as an extension point rather than claiming a fully established automated test suite.
+Testing should therefore be treated as an extension point rather than as an already established automated test suite.
 
 ---
 
@@ -836,15 +835,16 @@ This README therefore treats testing as an extension point rather than claiming 
 As the project grows, testing can be divided into three layers.
 
 ```text
-                 Testing Pyramid
+             Testing Pyramid
 
-                     E2E
-                    /   \
-                   /     \
-              Integration
-                /       \
-               /         \
-             Unit Tests
+                  E2E
+                 /  \
+                /    \
+               /      \
+        Integration
+             /          \
+            /            \
+       Unit Tests
 ```
 
 ### Unit Tests
@@ -859,18 +859,18 @@ Validate problem loading and related application logic.
 
 Validate the complete learner journey.
 
-For example:
+Example:
 
 ```text
-Open topic
-   ↓
-Open problem
-   ↓
-View explanation
-   ↓
-Open solver
-   ↓
-Use AI assistant
+Open Topic
+    ↓
+Open Problem
+    ↓
+View Explanation
+    ↓
+Open Solver
+    ↓
+Use AI Assistant
 ```
 
 ---
@@ -893,41 +893,39 @@ Google Generative AI
 
 This creates a useful abstraction boundary.
 
-If the provider changes later, the UI should not need to know the implementation details of the underlying AI service.
+If the provider changes later, the UI should not need to understand the implementation details of the underlying AI service.
 
 ---
 
 # Frontend Component Responsibilities
 
-The project can be understood through several important component boundaries.
-
 | Component         | Responsibility                 |
 | ----------------- | ------------------------------ |
 | `AIAssistant.tsx` | AI interaction UI              |
-| `Calculator.tsx`  | Learning utility/calculator    |
+| `Calculator.tsx`  | Learning utility / calculator  |
 | `ProblemCard.tsx` | Problem summary and navigation |
 | `Problems.tsx`    | Problem listing and discovery  |
 | `App.tsx`         | Application shell              |
 
-The current repository documents these components as core parts of the frontend structure.
+These components represent important frontend boundaries in the current project structure.
 
 ---
 
 # Performance Considerations
 
-The current application can be evolved with several performance strategies.
+The application can be evolved with several performance strategies.
 
 ## Code Splitting
 
-Load larger sections of the application only when needed.
+Load larger sections of the application only when they are required.
 
 ## Lazy Loading
 
-Lazy-load pages and feature-level components.
+Lazy-load pages and feature-level components where appropriate.
 
 ## Content Chunking
 
-Avoid loading every educational problem payload into memory when a much smaller subset is needed.
+Avoid loading every educational problem payload into memory when only a smaller subset is needed.
 
 ## AI Request Control
 
@@ -941,7 +939,7 @@ Keep expensive calculations and rendering work away from the main interaction pa
 
 # Scalability Strategy
 
-The current data-driven architecture makes several forms of growth possible.
+The current data-driven architecture allows the project to grow in several directions.
 
 ## More Problems
 
@@ -953,7 +951,7 @@ The current data-driven architecture makes several forms of growth possible.
 10,000+
 ```
 
-Additional problems can follow the same data contract without requiring a new UI architecture.
+Additional problems can follow the same content contract without requiring a new UI architecture.
 
 ## More Topics
 
@@ -972,9 +970,9 @@ JavaScript
 
 ## More Languages
 
-The current roadmap already considers expansion into additional programming languages.
+The current roadmap considers expansion into additional programming languages.
 
-A future abstraction could become:
+A future abstraction could look like:
 
 ```text
 Learning Platform
@@ -988,25 +986,31 @@ Learning Platform
 
 # Future Architecture
 
-A possible evolution of the application:
+A possible evolution of the application could introduce dedicated services for problems, user progress, and AI operations.
 
 ```text
-                        Web Client
-                            │
-                            ▼
-                     Application API
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-         Problems        Progress       AI Service
-         Service         Service        Gateway
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
+                         Web Client
+                             │
+                             ▼
+                      Application API
+                             │
+             ┌───────────────┼───────────────┐
+             ▼               ▼               ▼
+       Problems          Progress        AI Service
+        Service           Service          Gateway
+             │               │               │
+             └───────────────┼───────────────┘
+                             ▼
                        Data Storage
 ```
 
-This would support persistent user progress, personalization, analytics, and more sophisticated AI workflows.
+This architecture could support:
+
+- Persistent user progress
+- Personalized learning
+- Analytics
+- User accounts
+- More sophisticated AI workflows
 
 ---
 
@@ -1015,25 +1019,25 @@ This would support persistent user progress, personalization, analytics, and mor
 The platform can evolve from a static problem library into a personalized learning system.
 
 ```text
-                    Problem Library
-                           │
-                           ▼
-                    User Attempts
-                           │
-                           ▼
-                     Progress Data
-                           │
-                           ▼
-                 Skill Classification
-                           │
-                           ▼
-              Personalized Recommendations
-                           │
-                           ▼
-                   Next Best Problem
+Problem Library
+       │
+       ▼
+User Attempts
+       │
+       ▼
+Progress Data
+       │
+       ▼
+Skill Classification
+       │
+       ▼
+Personalized Recommendations
+       │
+       ▼
+Next Learning Challenge
 ```
 
-This creates the foundation for adaptive learning.
+This provides a foundation for adaptive learning.
 
 ---
 
@@ -1051,15 +1055,13 @@ The documented roadmap includes:
 [ ] GitHub Actions preview deployments
 ```
 
-These roadmap items are based on the existing project direction.
-
 ---
 
 # Contribution Workflow
 
 Contributions are welcome.
 
-## Fork
+## 1. Fork
 
 Fork the repository and clone your fork.
 
@@ -1067,17 +1069,17 @@ Fork the repository and clone your fork.
 git clone https://github.com/md-abu-kayser/advanced-js-problem-solver.git
 ```
 
-## Create a Branch
+## 2. Create a Branch
 
 ```bash
 git checkout -b feature/add-new-problems
 ```
 
-## Make Changes
+## 3. Make Changes
 
-Follow the existing architecture and naming conventions.
+Follow the existing architecture, naming conventions, and content structure.
 
-## Validate
+## 4. Validate
 
 ```bash
 npm run lint
@@ -1085,7 +1087,7 @@ npm run format
 npm run build
 ```
 
-## Commit
+## 5. Commit
 
 Use a meaningful Conventional Commit-style message:
 
@@ -1093,7 +1095,7 @@ Use a meaningful Conventional Commit-style message:
 git commit -m "feat(problems): add closure practice challenges"
 ```
 
-## Push
+## 6. Push
 
 ```bash
 git push origin feature/add-new-problems
@@ -1129,7 +1131,7 @@ Reference implementations are educational resources, so readability matters.
 
 ### Keep UI and Content Separate
 
-New educational content should normally be added through the existing data-driven system rather than hard-coded into UI components.
+New educational content should normally be added through the existing data-driven system rather than being hard-coded directly into UI components.
 
 ---
 
@@ -1191,7 +1193,7 @@ Use it as a structured JavaScript practice environment.
 
 ### For Educators
 
-Use the problem/explanation/solver model as a content-authoring foundation.
+Use the problem / explanation / solver model as a content-authoring foundation.
 
 ### For Developers
 
@@ -1203,7 +1205,7 @@ Explore how generative AI can be integrated into an educational frontend workflo
 
 ### For Portfolio Review
 
-The repository demonstrates frontend engineering, structured content architecture, API/service integration, and AI-assisted UX.
+The repository demonstrates frontend engineering, structured content architecture, service integration, and AI-assisted UX.
 
 ---
 
@@ -1217,15 +1219,15 @@ The platform therefore treats:
 
 ```text
 Problem
-+
+   +
 Reasoning
-+
+   +
 Implementation
-+
+   +
 Explanation
-+
+   +
 Experimentation
-=
+   =
 Learning
 ```
 
@@ -1251,7 +1253,7 @@ Frontend-exposed `VITE_` environment variables should not be treated as a secure
 
 ### Persistent Learning Data
 
-A full progress/personalization system requires a persistent backend and data layer.
+A full progress and personalization system requires a persistent backend and data layer.
 
 ---
 
@@ -1300,13 +1302,9 @@ See the [LICENSE](./LICENSE) file for details.
 </p>
 
 <p align="center">
-  <a href="https://github.com/md-abu-kayser">
-    GitHub
-  </a>
+  <a href="https://github.com/md-abu-kayser">GitHub</a>
   •
-  <a href="mailto:abu.kayser.official@gmail.com">
-    Email
-  </a>
+  <a href="mailto:abu.kayser.official@gmail.com">Email</a>
 </p>
 
 ---
